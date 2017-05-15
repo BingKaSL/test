@@ -1,0 +1,54 @@
+id              name          url              pid        operatename
+------------------------------------------------------------------------
+1								user_manage    null             null        用户管理
+2               usermanage   /UserManage      1           用户管理
+3               blogmanage     /BlogManage       1           日志管理
+4               talkmanage    /TalkManage      1           说说管理
+5               photofoldermanage  /PhotoFolderManage  1   相册管理
+
+6               metadatamanage     null           null      元数据管理
+7               areamanage        /AreaManage     6					区域管理
+8               lablemanage       /LableManage    6         标签管理
+
+9               cloud_drivermanage   null          null      网盘管理
+10							clouddrivermanage    /CloudDriverManage  9   网盘管理
+11              filemanage          /FileManage     9        文件管理
+
+12              function_manage        null           null   权限管理
+13              functionmanage       /FunctionManage   12    权限管理
+14              rolemanage           /RoleManage       12    角色管理
+15              managermanage        /ManagerManage    12    管理员管理
+
+
+
+
+1、用户管理
+    编写vo类     UserVo
+2、日志管理 
+		编写vo类     BlogVo
+3、说说管理       
+编写vo类     TalkVo
+4、相册管理    
+编写vo类     PhotoFolderVo
+5、网盘管理   
+编写vo类     CloudDriverVo
+6、文件管理
+编写vo类     FileVo
+7、权限管理
+编写vo类     FunctionVo
+8、角色管理
+编写vo类     RoleVo
+9、管理员管理
+编写vo类     Manager    Vo
+
+
+
+
+
+
+
+
+
+
+
+
